@@ -1,0 +1,153 @@
+{
+  "model_name": "vit_b16",
+  "test_accuracy": 0.9949668548981095,
+  "best_val_loss": Infinity,
+  "history": {
+    "train_loss": [],
+    "train_acc": [],
+    "val_loss": [],
+    "val_acc": []
+  },
+  "n_params": 86211878,
+  "per_class": {
+    "Apple scab": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 94.0
+    },
+    "Black rot": {
+      "precision": 1.0,
+      "recall": 0.9830508474576272,
+      "f1-score": 0.9914529914529915,
+      "support": 177.0
+    },
+    "Cedar apple rus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 41.0
+    },
+    "healthy": {
+      "precision": 1.0,
+      "recall": 0.99581589958159,
+      "f1-score": 0.9979035639412998,
+      "support": 239.0
+    },
+    "Powdery mildew": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 276.0
+    },
+    "Cercospora leaf": {
+      "precision": 0.961038961038961,
+      "recall": 0.961038961038961,
+      "f1-score": 0.961038961038961,
+      "support": 77.0
+    },
+    "Common rust ": {
+      "precision": 1.0,
+      "recall": 0.994413407821229,
+      "f1-score": 0.9971988795518207,
+      "support": 179.0
+    },
+    "Northern Leaf B": {
+      "precision": 0.9731543624161074,
+      "recall": 0.9797297297297297,
+      "f1-score": 0.9764309764309764,
+      "support": 148.0
+    },
+    "Esca (Black Mea": {
+      "precision": 0.985781990521327,
+      "recall": 1.0,
+      "f1-score": 0.9928400954653938,
+      "support": 208.0
+    },
+    "Leaf blight (Is": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 161.0
+    },
+    "Haunglongbing (": {
+      "precision": 1.0,
+      "recall": 0.9987893462469734,
+      "f1-score": 0.9993943064809206,
+      "support": 826.0
+    },
+    "Bacterial spot": {
+      "precision": 1.0,
+      "recall": 0.9905956112852664,
+      "f1-score": 0.9952755905511811,
+      "support": 319.0
+    },
+    "Early blight": {
+      "precision": 0.9795918367346939,
+      "recall": 0.96,
+      "f1-score": 0.9696969696969697,
+      "support": 150.0
+    },
+    "Late blight": {
+      "precision": 0.9894736842105263,
+      "recall": 0.986013986013986,
+      "f1-score": 0.9877408056042032,
+      "support": 286.0
+    },
+    "Leaf scorch": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 167.0
+    },
+    "Leaf Mold": {
+      "precision": 0.9794520547945206,
+      "recall": 1.0,
+      "f1-score": 0.9896193771626297,
+      "support": 143.0
+    },
+    "Septoria leaf s": {
+      "precision": 0.9962121212121212,
+      "recall": 0.9924528301886792,
+      "f1-score": 0.994328922495274,
+      "support": 265.0
+    },
+    "Spider mites Tw": {
+      "precision": 0.9958847736625515,
+      "recall": 0.9641434262948207,
+      "f1-score": 0.979757085020243,
+      "support": 251.0
+    },
+    "Target Spot": {
+      "precision": 0.9587155963302753,
+      "recall": 0.9952380952380953,
+      "f1-score": 0.9766355140186916,
+      "support": 210.0
+    },
+    "Tomato Yellow L": {
+      "precision": 0.9987562189054726,
+      "recall": 1.0,
+      "f1-score": 0.9993777224642191,
+      "support": 803.0
+    },
+    "Tomato mosaic v": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9655172413793104,
+      "support": 56.0
+    },
+    "accuracy": 0.9949668548981095,
+    "macro avg": {
+      "precision": 0.9904898240990946,
+      "recall": 0.9943077604768463,
+      "f1-score": 0.9922960552682247,
+      "support": 8146.0
+    },
+    "weighted avg": {
+      "precision": 0.9950657590250945,
+      "recall": 0.9949668548981095,
+      "f1-score": 0.9949776928026709,
+      "support": 8146.0
+    }
+  }
+}
