@@ -50,21 +50,29 @@ Vision Transformer pretrained on ImageNet. Two-phase fine-tuning with phase 2 un
 ## Project Structure
 
 ```
-leaf-pred/
+Leaf-Pred/
 │
 ├── README.md
 │
-├── code/
-│   ├── 04_model_custom_cnn.py
-│   ├── 05_model_resnet50.py
-│   ├── 06_model_efficientnet.py
-│   ├── 07_model_vit.py
+├── notebooks/
+│   ├── 01_data_acquisition_setup.ipynb
+│   ├── 02_exploratory_data_analysis.ipynb
+│   ├── 03_preprocessing_augmentation.ipynb
 │   └── 08_results_comparison.ipynb
 │
-└── .gitignore
+├── scripts/
+│   ├── 04_model_custom_cnn.py
+│   ├── 05_model_resnet50.py
+│   ├── 06_model_efficientnet_b2.py
+│   └── 07_model_vit_b16.py
+│
+├── data/
+│   └── raw/
+│
+└── results/
 ```
 
-Scripts are numbered in execution order. Each is self-contained — they all read from the same preprocessed data and write their results independently.
+Files are numbered in execution order. Notebooks 01–03 handle data setup, exploration, and preprocessing. Scripts 04–07 train the models. Notebook 08 compares results.
 
 ---
 
